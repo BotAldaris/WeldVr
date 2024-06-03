@@ -20,6 +20,16 @@ public class UI : MonoBehaviour
             Destroy(obj);
         }
     }
+
+    public void ResetTutorial()
+    {
+        DesativarAposXTempo[] objectsWithTag = Resources.FindObjectsOfTypeAll<DesativarAposXTempo>();
+        foreach (var item in objectsWithTag)
+        {
+            item.Resetar();
+        }
+
+    }
      public void PlayGee()
     {
         gee.TogglePlay();
