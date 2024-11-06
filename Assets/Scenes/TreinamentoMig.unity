@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -7687,17 +7688,22 @@ PrefabInstance:
     - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.7071716
       objectReference: {fileID: 0}
     - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7071068
+      value: 0.7069881
       objectReference: {fileID: 0}
     - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.0061586476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.006182877
       objectReference: {fileID: 0}
     - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
         type: 3}
@@ -7708,6 +7714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183227746902809054, guid: 57b32d95ac2884546b3ca36a175a5f00,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.002
       objectReference: {fileID: 0}
     - target: {fileID: 3756205724785463148, guid: 57b32d95ac2884546b3ca36a175a5f00,
         type: 3}
