@@ -53,8 +53,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.19908714, y: 0.0063462257, z: 0.005771965}
-  m_Center: {x: -0.00011563301, y: 0.03264129, z: -0.0030633807}
+  m_Size: {x: 0.19908714, y: 0.00792551, z: 0.0066474057}
+  m_Center: {x: -0.00011563301, y: 0.033430934, z: -0.003812194}
 --- !u!1 &7741647707595600743
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,6 +115,7 @@ MeshRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -200,6 +201,7 @@ MeshRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

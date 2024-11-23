@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class TochaMig : MonoBehaviour
@@ -18,6 +19,8 @@ public class TochaMig : MonoBehaviour
     private Color azul;
     public Color vermelo;
     public EPIManage manage;
+    private Coroutine ambientLightCoroutine;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +74,13 @@ public class TochaMig : MonoBehaviour
             {
                 light.enabled = false;
             }
+            if (ambientLightCoroutine != null)
+            {
+                StopCoroutine(ambientLightCoroutine);
+                ambientLightCoroutine = null;
+            }
+            RenderSettings.ambientLight = Color.black;
+
             ChangeLanternColor();
             light1.enabled = true;
             manage.Checkar();
@@ -86,6 +96,12 @@ public class TochaMig : MonoBehaviour
             {
                 light.enabled = true;
             }
+            if (ambientLightCoroutine != null)
+            {
+                StopCoroutine(ambientLightCoroutine);
+                ambientLightCoroutine = null;
+            }
+            ambientLightCoroutine = StartCoroutine(DelayedAmbientLightChange(2f));
             light1.enabled = false;
         }
     }
@@ -102,5 +118,10 @@ public class TochaMig : MonoBehaviour
         {
             SetIsInWeldArea(false);
         }
+    }
+    private IEnumerator DelayedAmbientLightChange(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        RenderSettings.ambientLight = Color.gray;
     }
 }

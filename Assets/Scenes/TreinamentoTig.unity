@@ -6556,31 +6556,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 677966854474580528, guid: 8c96176767623cf469a677a84e178149,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.00792551
-      objectReference: {fileID: 0}
-    - target: {fileID: 677966854474580528, guid: 8c96176767623cf469a677a84e178149,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.0066474057
-      objectReference: {fileID: 0}
-    - target: {fileID: 677966854474580528, guid: 8c96176767623cf469a677a84e178149,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -0.00011563301
-      objectReference: {fileID: 0}
-    - target: {fileID: 677966854474580528, guid: 8c96176767623cf469a677a84e178149,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0.033430934
-      objectReference: {fileID: 0}
-    - target: {fileID: 677966854474580528, guid: 8c96176767623cf469a677a84e178149,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0.003812194
-      objectReference: {fileID: 0}
     - target: {fileID: 1178859098285746553, guid: 8c96176767623cf469a677a84e178149,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6919,41 +6894,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 281007506192649998, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.0038771336
-      objectReference: {fileID: 0}
-    - target: {fileID: 281007506192649998, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.002179145
-      objectReference: {fileID: 0}
-    - target: {fileID: 281007506192649998, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -6.9434313e-13
-      objectReference: {fileID: 0}
-    - target: {fileID: 281007506192649998, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -0.00093856594
-      objectReference: {fileID: 0}
-    - target: {fileID: 281007506192649998, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.0005751742
-      objectReference: {fileID: 0}
-    - target: {fileID: 824469516365067130, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 824469516365067130, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0077
-      objectReference: {fileID: 0}
     - target: {fileID: 1020635725857785455, guid: 403c0159ed867474dbadaa2a20d6e96e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7003,31 +6943,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 87.532
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732315032962258309, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.003480057
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732315032962258309, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.0019590848
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732315032962258309, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 1.5509452e-12
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732315032962258309, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 0.001145063
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732315032962258309, guid: 403c0159ed867474dbadaa2a20d6e96e,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.00046466722
       objectReference: {fileID: 0}
     - target: {fileID: 7188906313034723153, guid: 403c0159ed867474dbadaa2a20d6e96e,
         type: 3}

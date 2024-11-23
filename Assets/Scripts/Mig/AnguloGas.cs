@@ -9,23 +9,23 @@ public class AnguloGas : MonoBehaviour
     public float ultimoAnguloRotacao;
     private Quaternion rotacaoInicial;
     private bool lastOnOff;
-    public AnimacaoAbrirFechar animacao;
+    public LigarDeslga alavanca;
     public TochaMig mig;
     // Start is called before the first frame update
     void Start()
     {
         ultimoAngulo = rotator.angulo;
-        lastOnOff = animacao.aberto;
+        lastOnOff = alavanca.GetOn();
         rotacaoInicial = trans.rotation;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (lastOnOff != animacao.aberto)
+        if (lastOnOff != alavanca.GetOn())
         {
-            lastOnOff = animacao.aberto;
-            if (animacao.aberto == false)
+            lastOnOff = alavanca.GetOn();
+            if (alavanca.GetOn() == false)
             {
                 trans.rotation = rotacaoInicial;
                 ultimoAnguloRotacao = -100;
